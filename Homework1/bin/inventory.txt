@@ -1,0 +1,9 @@
+Cat, Jim, 1ID, cat1, 1, color1, true, true
+Cat, Kelsie, pet id 4, cat 2, 4, true, true, true
+DOG, Arthur, id5, dog1, 5, breed5, blue
+DOG, Shelby, 2ID, dog2, 2, breed2, color2
+DOG, Meagan, id5, dog1, 5, breed5, blue
+DOG, Sam, ZIZU, Pazuzu, 5, Toy poodle, Black
+DOG, George, 0, buster, 3, Boxer, brown
+Other, whale, Jeffrey, O1, Martha, 20, true
+Other, lizard, Samantha, o0, jimmy, 2, true

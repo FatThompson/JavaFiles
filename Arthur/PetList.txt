@@ -1,0 +1,7 @@
+Tigger, Christopher Robbin, 5, Cat, False, True, Orange
+Garfield, Jon, 10, Cat, False, False, Orange
+Bolt, Penny, 7, Dog, German Shepherd, White
+Snoopy, Charlie Brown, 6, Dog, Beagle, White
+Stitch, Lilo, 1000, Dog, Experiment 626, Blue
+Timon, Pumbaa, 15, Meerkat, True
+Nemo, Marvin, 2, Fish, False

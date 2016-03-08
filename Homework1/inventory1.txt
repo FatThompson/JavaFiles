@@ -1,0 +1,9 @@
+Cat, Jim, 1, cat1, 1, color1, true, true
+Cat, Kelsie, 2, cat 2, 4, true, true, true
+DOG, Arthur, 3, dog1, 5, breed5, blue
+DOG, Shelby, 4, dog2, 2, breed2, color2
+DOG, Meagan, 5, dog1, 5, breed5, blue
+DOG, Sam, 6, Pazuzu, 5, Toy poodle, Black
+DOG, George, 7, buster, 3, Boxer, brown
+Other, whale, Jeffrey, 8, Martha, 20, true
+Other, lizard, Samantha, 9, jimmy, 2, true
