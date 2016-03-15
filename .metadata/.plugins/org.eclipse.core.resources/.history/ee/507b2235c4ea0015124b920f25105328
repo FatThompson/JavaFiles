@@ -128,6 +128,7 @@ public class BST<E extends Comparable<E>>
 	{
 		lock.lock();
 		try {
+			try
 			// the smallest value in a BST is the left most node-> Go left until can't go left anymore
 			TreeNode<E> currentNode = root;
 					E returnValue = null;
