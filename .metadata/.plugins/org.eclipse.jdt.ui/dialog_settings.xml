@@ -78,6 +78,9 @@
 		<item value="false" key="CASE_SENSITIVE"/>
 		<item value="11" key="INCLUDE_MASK"/>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
 	<section name="completion_proposal_size">
 	</section>
 	<section name="AddGetterSetterDialog">
