@@ -1844,3 +1844,25 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpaceInvadersApp re
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
 	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2016-03-17 11:03:13,147 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:03:13,156 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\main\resources
+2016-03-17 11:03:13,163 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:03:13,164 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\test\resources
+2016-03-17 11:20:15,879 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:20:15,883 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\main\resources
+2016-03-17 11:20:15,888 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:20:15,889 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\test\resources
+2016-03-17 11:20:46,057 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:20:46,057 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\main\resources
+2016-03-17 11:20:46,060 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:20:46,060 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\test\resources
+2016-03-17 11:26:37,865 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:26:37,865 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\main\resources
+2016-03-17 11:26:37,869 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:26:37,870 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\test\resources
+2016-03-17 11:26:47,926 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:26:47,926 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\main\resources
+2016-03-17 11:26:47,929 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-17 11:26:47,929 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\test\resources
+2016-03-17 11:29:08,533 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-03-17 17:38:32,938 [Worker-18] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
