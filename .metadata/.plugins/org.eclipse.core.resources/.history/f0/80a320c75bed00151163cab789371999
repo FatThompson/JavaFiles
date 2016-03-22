@@ -1,0 +1,10 @@
+
+public class Config
+{
+	//Height Width of App
+	public static final int Width = 400,
+							Heigth = 800;
+	
+	
+	
+}

@@ -1,0 +1,8 @@
+package com.chromalife.SpaceInvadersComponents;
+
+import com.almasb.ents.component.IntegerComponent;
+
+public class HealthComponent extends IntegerComponent
+{
+	
+}

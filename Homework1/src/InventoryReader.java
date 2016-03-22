@@ -148,6 +148,7 @@ public class InventoryReader
 
 		System.out.println("\n");
 
+		@SuppressWarnings("resource")
 		Scanner keyboardInput = new Scanner(System.in);
 		String lineEntered = keyboardInput.nextLine();
 		return lineEntered;
