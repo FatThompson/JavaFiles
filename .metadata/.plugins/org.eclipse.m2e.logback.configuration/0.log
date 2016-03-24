@@ -2895,3 +2895,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpaceInvadersApp re
 2016-03-23 18:42:35,262 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\src\test\resources
 2016-03-23 18:42:39,112 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2016-03-23 20:55:00,534 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-03-24 11:20:02,248 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.

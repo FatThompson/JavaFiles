@@ -18,7 +18,6 @@
 <fullyQualifiedTypeName name="AnimalHashMap"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.almasb.ents.component.Required"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
 <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
 <fullyQualifiedTypeName name="java.awt.Insets"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.ws.policy.privateutil.PolicyUtils.Text"/>
@@ -29,6 +28,9 @@
 <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.PersonGUI"/>
 <fullyQualifiedTypeName name="java.awt.TextArea"/>
-<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.PersonDataGUI"/>
+<fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.Person"/>
+<fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.BinaryIOObjectOutput"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 </qualifiedTypeNameHistroy>

@@ -43,10 +43,26 @@ public class Person implements Serializable
         this.idNum = idNum;
         this.city = city;
     }
+    
+    /**
+     * @param firstName
+     * @param lastName
+     * @param idNum
+     * @param city
+     */
+    public Person(String firstName, String lastName, String idNum, String city)
+    {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        setIdNum(idNum);
+        this.city = city;
+    }
 
    
 
-    /**
+    
+
+	/**
      * @return the firstName
      */
     public String getFirstName()
@@ -96,6 +112,16 @@ public class Person implements Serializable
     {
         this.idNum = idNum;
     }
+    /**
+	 * @param idNum2
+	 */
+	private void setIdNum(String idNum2)
+	{
+		idNum2 = "0"+ idNum2;
+		setIdNum(Integer.parseInt(idNum2.replaceAll("\\D", "")));
+				
+		
+	}
 
     /**
      * @return the city

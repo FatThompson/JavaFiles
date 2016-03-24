@@ -13,40 +13,34 @@
 
 package javaFX.homeWork.basicGUI;
 
-import java.io.EOFException;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.ObjectInputStream;
-import java.util.ArrayList;
 
-import binaryIO.Person;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import javafx.scene.text.*;
-import javafx.scene.input.KeyCode;
 
 
 public class BasicGUI extends Application
 {
 	private PersonGUI personGUI = new PersonGUI();
 	private PersonDataGUI personDataGUI = new PersonDataGUI();
+	
 	/* (non-Javadoc)
 	 * @see javafx.application.Application#start(javafx.stage.Stage)
 	 */
 	@Override
 	public void start(Stage primaryStage) throws Exception
 	{
-		//look for file
+		//just creates fake data
+		BinaryIOObjectOutput.createPeopleDat();
 		
-		{
-			buildScene(primaryStage);
-		}
+
+		buildScene(primaryStage);
+
 	}
 
 	/**
@@ -79,11 +73,11 @@ public class BasicGUI extends Application
 		grpMain.add(personGUI.buildCreatePersonGrid(0), 0, 1);
 		System.out.println("Person Creation Pane created.");
 
-		
+		personGUI.getBtnCreatePerson().setOnAction(e -> createPerson());
 
-
-		grpMain.add(personDataGUI.createPersonData(), 1, 1);
-
+		System.out.println("Creating PersonDataField...");
+		grpMain.add(personDataGUI.createPersonDataField(), 1, 1);
+		System.out.println("Created PersonDataField");
 
 
 		System.out.println("MainPane Created.");
@@ -101,5 +95,22 @@ public class BasicGUI extends Application
 		primaryStage.show();
 		System.out.println("Scene Shown");
 
+	}
+
+	/**
+	 * Will create person based on data from personGUI fields,
+	 * then will insert into the ArrayList in the PersonDataGUI's textarea (txa)
+	 * then refresh.
+	 * @return void
+	 */
+	private void createPerson()
+	{
+		// TODO Auto-generated method stub
+		
+		Person person = personGUI.createPerson();
+		personDataGUI.add(person);
+
+		
+		return;
 	}
 }

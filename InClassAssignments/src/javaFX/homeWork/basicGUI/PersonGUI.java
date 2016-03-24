@@ -28,36 +28,38 @@ public class PersonGUI //extends Application
 	{
 		
 	}
-//	public static void main(String[] args)
-//	{
-//		launch(args);
-//
-//	}
-
-//	@Override
-//	public void start(Stage primaryStage) throws Exception
-//	{
-//		buildGUI(primaryStage);
-//	}
-
-//	public static void buildGUI(Stage primaryStage)
-//	{
-//		System.out.println("Start buidling GUI... \n");
-//
-//
-//		System.out.println("Creating Scene...");
-//		Scene scene = new Scene(buildCreatePersonGrid(), 300, 275);
-//		System.out.println("Scene Created");
-//
-//		System.out.println("Setting Scene...");
-//		primaryStage.setScene(scene);
-//		System.out.println("Scene Set");
-//
-//		System.out.println("Showing Scene...");
-//		primaryStage.show();
-//		System.out.println("Scene Shown");
-//
-//	}
+	public void setBtnCreatePerson(Button btnCreatePerson)
+	{
+		this.btnCreatePerson = btnCreatePerson;
+	}
+	public void setBtnCancel(Button btnCancel)
+	{
+		this.btnCancel = btnCancel;
+	}
+	public TextField getTxtFirstName()
+	{
+		return txtFirstName;
+	}
+	public TextField getTxtLastName()
+	{
+		return txtLastName;
+	}
+	public TextField getTxtPersonID()
+	{
+		return txtPersonID;
+	}
+	public TextField getTxtCity()
+	{
+		return txtCity;
+	}
+	public Button getBtnCreatePerson()
+	{
+		return btnCreatePerson;
+	}
+	public Button getBtnCancel()
+	{
+		return btnCancel;
+	}
 	public GridPane buildCreatePersonGrid(int y)
 	{
 		System.out.println("   Building Person Grid...");
@@ -114,23 +116,36 @@ public class PersonGUI //extends Application
 	{
 		// TODO Auto-generated method stub
 		System.out.println("Cancel");
+		clear();  
 		
+		return;
+	}
+	public void clear()
+	{
+
 		txtFirstName.setText(null); 
 		txtLastName.setText(null);   
 		txtPersonID.setText(null);   
-		txtCity.setText(null);       
-		
-		return;
+		txtCity.setText(null); 
 	}
 
 	/**
 	 * @return
 	 */
-	private void createPersonButtonClicked()
+	private Person createPersonButtonClicked()
 	{
 		System.out.println("create person");
 		
-		return;
+		return createPerson();
 		
+	}
+	public Person createPerson()
+	{
+		Person person = new Person(getTxtFirstName().getText(),
+				getTxtLastName().getText(),
+				getTxtPersonID().getText(),
+				getTxtCity().getText());
+		clear();
+		return person;
 	}
 }

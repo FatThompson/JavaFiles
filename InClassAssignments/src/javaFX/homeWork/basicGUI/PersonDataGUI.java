@@ -19,7 +19,6 @@ import java.io.FileNotFoundException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
-import binaryIO.Person;
 import javafx.scene.control.TextArea;
 
 /**
@@ -29,6 +28,7 @@ import javafx.scene.control.TextArea;
 public class PersonDataGUI
 {
 	private ArrayList<Person> personAL = new ArrayList<Person>();
+	private TextArea txaPersonData = new TextArea();
 	private boolean hasData;
 	
 	public PersonDataGUI()
@@ -37,9 +37,10 @@ public class PersonDataGUI
 		setHasData();
 	}
 	
-	public ArrayList<Person> getPersonAL()
+	public void add(Person person)
 	{
-		return personAL;
+		personAL.add(person);
+		txaPersonData.setText(toString());
 	}
 
 	public void setPersonAL(ArrayList<Person> personAL)
@@ -66,19 +67,20 @@ public class PersonDataGUI
 		this.hasData = hasData;
 	}
 
-	public TextArea createPersonData(){
-		TextArea grpPersonDataField = new TextArea();
-		grpPersonDataField.setEditable(false);
+	public TextArea createPersonDataField(){
+		txaPersonData.setEditable(false);
 
 		//get data file here
 		
-		grpPersonDataField.setText(toString());
-		grpPersonDataField.setMinSize(100, 50);
-		grpPersonDataField.setMaxWidth(300);
-		grpPersonDataField.setWrapText(true);
+		txaPersonData.setMinSize(100, 50);
+		txaPersonData.setMaxWidth(300);
+		txaPersonData.setText(toString());
+		txaPersonData.setWrapText(true);
 		
-		return grpPersonDataField;
+		
+		return txaPersonData;
 	}
+
 	
 	/**
 	 * 
@@ -116,13 +118,14 @@ public class PersonDataGUI
 		catch(FileNotFoundException fnfe)
 		{
 			System.out.println("file not found");
-			return null;
+			//return null;
 		}
 		catch(Exception e)
 		{
 			System.out.println("other exeption");
-			return null;
+			//return null;
 		}
+		return new ArrayList<Person>();
 	}
 	
 	@Override
