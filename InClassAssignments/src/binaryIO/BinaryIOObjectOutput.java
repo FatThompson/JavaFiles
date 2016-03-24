@@ -21,15 +21,15 @@ public class BinaryIOObjectOutput
 	{
 		try
 		{ 
-				ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("PeopleObject.dat"));
-				for (int i = 0; i < 100; i++)
-		        {
-					output.writeObject(new Person("fname"+i,"lname"+i,i,"city"+i));	        
-		        }
-				output.close();
-				System.out.println("Successully Finshied");
+			ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("PeopleObject.dat"));
+			for (int i = 1; i < 11; i++)
+			{
+				output.writeObject(new Person("fname"+i,"lname"+i,i,"city"+i));	        
+			}
+			output.close();
+			System.out.println("Successully Finshied");
 		}		
-		
+
 		catch(Exception e)
 		{ 
 			e.printStackTrace();
