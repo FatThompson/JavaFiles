@@ -36,7 +36,7 @@ public class BasicGUI extends Application
 	public void start(Stage primaryStage) throws Exception
 	{
 		//just creates fake data
-		BinaryIOObjectOutput.createPeopleDat();
+		//BinaryIOObjectOutput.createPeopleDat();
 		
 
 		buildScene(primaryStage);
@@ -55,7 +55,6 @@ public class BasicGUI extends Application
 	{
 		System.out.println("Start buidling GUI... \n");
 
-		System.out.println("Creating Scene...");
 
 		System.out.println("MainPaneCreating...");
 		GridPane grpMain = new GridPane();
@@ -71,29 +70,23 @@ public class BasicGUI extends Application
 
 		System.out.println("Create person Creation Pane");
 		grpMain.add(personGUI.buildCreatePersonGrid(0), 0, 1);
-		System.out.println("Person Creation Pane created.");
 
 		personGUI.getBtnCreatePerson().setOnAction(e -> createPerson());
 
 		System.out.println("Creating PersonDataField...");
 		grpMain.add(personDataGUI.createPersonDataField(), 1, 1);
-		System.out.println("Created PersonDataField");
 
 
-		System.out.println("MainPane Created.");
+		System.out.println("Create Scene");
 		Scene scene = new Scene(grpMain);
-		System.out.println("Scene Created");
-
 
 
 
 		System.out.println("Setting Scene...");
 		primaryStage.setScene(scene);
-		System.out.println("Scene Set");
 
 		System.out.println("Showing Scene...");
 		primaryStage.show();
-		System.out.println("Scene Shown");
 
 	}
 

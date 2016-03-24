@@ -22,11 +22,11 @@ public class PersonGUI //extends Application
 	private TextField txtCity = new TextField();
 	private Button btnCreatePerson = new Button("Create Person");
 	private Button btnCancel = new Button("Cancel");
-	
-	
+
+
 	public PersonGUI()
 	{
-		
+
 	}
 	public void setBtnCreatePerson(Button btnCreatePerson)
 	{
@@ -91,16 +91,16 @@ public class PersonGUI //extends Application
 		grid.add(lblCity, 0, ++y);
 
 		System.out.println("   Add txtfield for the City");
-		
+
 		grid.add(txtCity, 1, y);
 
 		System.out.println("   Adding Button...");
-		
+
 		btnCreatePerson.setOnAction(e -> createPersonButtonClicked());
 		grid.add(btnCreatePerson, 0, ++y);
 
 		System.out.println("   Adding Button...");
-		
+
 		btnCancel.setOnAction(e -> cancelButtonClicked());
 		grid.add(btnCancel, 1, y);
 
@@ -117,7 +117,7 @@ public class PersonGUI //extends Application
 		// TODO Auto-generated method stub
 		System.out.println("Cancel");
 		clear();  
-		
+
 		return;
 	}
 	public void clear()
@@ -135,16 +135,29 @@ public class PersonGUI //extends Application
 	private Person createPersonButtonClicked()
 	{
 		System.out.println("create person");
-		
+
 		return createPerson();
-		
+
 	}
 	public Person createPerson()
 	{
-		Person person = new Person(getTxtFirstName().getText(),
-				getTxtLastName().getText(),
-				getTxtPersonID().getText(),
-				getTxtCity().getText());
+		Person person = new Person();
+		String firstName = getTxtFirstName().getText().trim();
+		String lastName = getTxtLastName().getText().trim();
+		String personID = getTxtPersonID().getText().trim();
+		String city = getTxtCity().getText().trim();
+
+		if(firstName!=null &&
+				lastName!=null &&
+				personID!=null &&
+				city!=null)
+		{
+			person = new Person(getTxtFirstName().getText(),
+					getTxtLastName().getText(),
+					getTxtPersonID().getText(),
+					getTxtCity().getText());
+		}
+
 		clear();
 		return person;
 	}

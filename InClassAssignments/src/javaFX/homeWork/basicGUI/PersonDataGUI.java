@@ -39,8 +39,11 @@ public class PersonDataGUI
 	
 	public void add(Person person)
 	{
-		personAL.add(person);
-		txaPersonData.setText(toString());
+		if(person!=new Person())
+		{
+			personAL.add(person);
+			txaPersonData.setText(toString());
+		}
 	}
 
 	public void setPersonAL(ArrayList<Person> personAL)
