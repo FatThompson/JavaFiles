@@ -24,7 +24,6 @@
 <fullyQualifiedTypeName name="com.sun.xml.internal.ws.org.objectweb.asm.Label"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
 <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
-<fullyQualifiedTypeName name="javafx.scene.input.KeyCode"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.PersonGUI"/>
 <fullyQualifiedTypeName name="java.awt.TextArea"/>
@@ -33,4 +32,8 @@
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.BinaryIOObjectOutput"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
+<fullyQualifiedTypeName name="javafx.scene.input.KeyCode"/>
+<fullyQualifiedTypeName name="javafx.scene.input.MouseButton"/>
+<fullyQualifiedTypeName name="SpaceInvaders.Components.OwnerComponent"/>
+<fullyQualifiedTypeName name="SpaceInvaders.Controls.BulletControl"/>
 </qualifiedTypeNameHistroy>
