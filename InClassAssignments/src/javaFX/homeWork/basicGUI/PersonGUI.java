@@ -139,23 +139,32 @@ public class PersonGUI //extends Application
 		return createPerson();
 
 	}
-	public Person createPerson()
+	public Person createPerson() 
 	{
 		Person person = new Person();
-		String firstName = getTxtFirstName().getText().trim();
-		String lastName = getTxtLastName().getText().trim();
-		String personID = getTxtPersonID().getText().trim();
-		String city = getTxtCity().getText().trim();
+		String firstName = getTxtFirstName().getText();
+		String lastName = getTxtLastName().getText();
+		String personID = getTxtPersonID().getText();
+		String city = getTxtCity().getText();
 
-		if(firstName!=null &&
-				lastName!=null &&
-				personID!=null &&
-				city!=null)
+		//checking for null twices will throw error.
+		try
 		{
-			person = new Person(getTxtFirstName().getText(),
-					getTxtLastName().getText(),
-					getTxtPersonID().getText(),
-					getTxtCity().getText());
+			if((!firstName.equals(null) ||
+					!lastName.equals(null) ||
+					!personID.equals(null) ||
+					!city.equals(null)))
+			{
+				person = new Person(getTxtFirstName().getText().trim(),
+						getTxtLastName().getText().trim(),
+						getTxtPersonID().getText().trim(),
+						getTxtCity().getText().trim());
+			}
+		}
+		catch(NullPointerException npe)
+		{
+			System.out.println("They tried to create from nothing.");
+			person = new Person(null,null,null,null);
 		}
 
 		clear();

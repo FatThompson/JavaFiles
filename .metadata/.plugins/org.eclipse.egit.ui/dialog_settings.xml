@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
-	<item value="C:\Users\User\Documents\School\spring 2016\github\Forks\SpaceInvaders\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<item value="C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders\.git" key="GitSelectRepositoryPage.lastRepository"/>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/soft-eng-practicum/gpg-messaging"/>
 		<item value="https://github.com/FatThompson/SpaceInvaders"/>
 		<item value="https://github.com/AlmasB/FXGLGames/"/>
 		<item value="https://github.com/FatThompson/Matthew-Thompson"/>

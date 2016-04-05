@@ -25,7 +25,7 @@ public class BinaryIOObjectOutput
 	{
 		try
 		{ 
-			ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("PeopleObject.dat"));
+			ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream(Config.FILE_NAME));
 			for (int i = 1; i < 11; i++)
 			{
 				output.writeObject(new Person("fname"+i,"lname"+i,i,"city"+i));	        

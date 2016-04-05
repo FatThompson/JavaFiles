@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="Pet"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
@@ -29,11 +28,14 @@
 <fullyQualifiedTypeName name="java.awt.TextArea"/>
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.PersonDataGUI"/>
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.Person"/>
-<fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.BinaryIOObjectOutput"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 <fullyQualifiedTypeName name="javafx.scene.input.KeyCode"/>
 <fullyQualifiedTypeName name="javafx.scene.input.MouseButton"/>
 <fullyQualifiedTypeName name="SpaceInvaders.Components.OwnerComponent"/>
 <fullyQualifiedTypeName name="SpaceInvaders.Controls.BulletControl"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+<fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.BinaryIOObjectOutput"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 </qualifiedTypeNameHistroy>

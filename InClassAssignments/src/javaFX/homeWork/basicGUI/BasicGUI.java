@@ -64,7 +64,7 @@ public class BasicGUI extends Application
 
 		//Will Add a title later. 
 		System.out.println("   Adding Title...");
-		Text scenetitle = new Text("Title");
+		Text scenetitle = new Text(Config.BASIC_GUI_TITLE);
 		scenetitle.setFont(Font.font("Tahoma", FontWeight.BOLD, 16));
 		grpMain.add(scenetitle, 0, 0, 2, 1);
 
