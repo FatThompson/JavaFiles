@@ -130,22 +130,22 @@ public class BST<E extends Comparable<E>>
 		try {
 			// the smallest value in a BST is the left most node-> Go left until can't go left anymore
 			TreeNode<E> currentNode = root;
-					E returnValue = null;
+			E returnValue = null;
 
-					if (root == null)
-					{
-						return null;
-					}
-					else
-					{
-						while (currentNode.left != null)
-						{
-							currentNode = currentNode.left;
-						}
-						returnValue = currentNode.element;
-						delete(returnValue);
-						return returnValue;
-					}
+			if (root == null)
+			{
+				return null;
+			}
+			else
+			{
+				while (currentNode.left != null)
+				{
+					currentNode = currentNode.left;
+				}
+				returnValue = currentNode.element;
+				delete(returnValue);
+				return returnValue;
+			}
 
 
 		} 

@@ -10,7 +10,7 @@ public class TreeThreadRunner
         BST<Double> theTree = new BST<Double>();
 
         final int REPETITIONS = 10;
-        final int THREADS = 10;
+        final int THREADS = 100;
 
         for (int i = 1; i <= THREADS; i++)
         {
