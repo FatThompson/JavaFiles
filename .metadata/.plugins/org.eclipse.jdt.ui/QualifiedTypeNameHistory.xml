@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="javax.xml.soap.Node"/>
 <fullyQualifiedTypeName name="MyMap.Entry"/>
 <fullyQualifiedTypeName name="java.io.DataInputStream"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="AnimalHashMap"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.almasb.ents.component.Required"/>
@@ -33,8 +32,6 @@
 <fullyQualifiedTypeName name="SpaceInvaders.Components.OwnerComponent"/>
 <fullyQualifiedTypeName name="SpaceInvaders.Controls.BulletControl"/>
 <fullyQualifiedTypeName name="javaFX.homeWork.basicGUI.BinaryIOObjectOutput"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
 <fullyQualifiedTypeName name="javaFX_MultiThread.mine.RandomMovementModule"/>
 <fullyQualifiedTypeName name="javaFX_MultiThread.mine.Config"/>
@@ -43,12 +40,24 @@
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
 <fullyQualifiedTypeName name="javafx.scene.Scene"/>
 <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
-<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.StackPane"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
 <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
 <fullyQualifiedTypeName name="javafx.scene.shape.Ellipse"/>
 <fullyQualifiedTypeName name="javafx.scene.control.ScrollPane"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.entity.control.ExpireCleanControl"/>
+<fullyQualifiedTypeName name="SpaceCraft.Controls.LaserHitControl"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.asset.AssetLoader"/>
+<fullyQualifiedTypeName name="com.almasb.fxgl.asset.Texture"/>
+<fullyQualifiedTypeName name="SpaceCraft.Components.ImmuneComponent"/>
+<fullyQualifiedTypeName name="SpaceCraft.Event.GameEvent"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="SpaceCraft.Controls.EnemyControl"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="SpaceCraft.Config"/>
 <fullyQualifiedTypeName name="SpaceCraft.Components.HealthComponent"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 </qualifiedTypeNameHistroy>

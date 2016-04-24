@@ -42,10 +42,11 @@ public class Creator implements Runnable
         for (int i = 0; i< nameArray.length; i++)
          {
            // generate a random Double
+        	//colors are only 6 i thought?
         	int newValue = rand.nextInt(8);
             map.put(nameArray[i], colorArray[newValue]);
             System.out.println();
-        	System.out.println("Adding key of " + nameArray[i] + " with value of " + colorArray[newValue]);
+        	System.out.println("Adding key of " + nameArray[i] + " with value of " + Color.valueOf(colorArray[newValue].toString()));
             Thread.sleep(DELAY);
          }
       }
