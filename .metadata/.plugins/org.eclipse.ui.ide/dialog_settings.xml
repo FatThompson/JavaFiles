@@ -5,6 +5,10 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="B:\Users\User\Documents\School\Spring 2016\Git\JavaFiles\MidTerm"/>
+			<item value="B:\Users\User\Documents\School\Spring 2016\Git\JavaFiles\inclassGraphs"/>
+			<item value="B:\Users\User\Documents\School\Spring 2016\Git\JavaFiles\Homework2"/>
+			<item value="B:\Users\User\Documents\School\Spring 2016\Git\JavaFiles\InClassAssignments"/>
 			<item value="C:\Users\User\Documents\School\spring 2016\github\SpaceInvaders"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

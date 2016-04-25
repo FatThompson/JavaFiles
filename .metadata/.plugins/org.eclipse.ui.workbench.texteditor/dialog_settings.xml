@@ -6,30 +6,30 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Start" key="selection"/>
-		<item value="false" key="casesensitive"/>
+		<item value="Animal" key="selection"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Person"/>
+			<item value="person"/>
 			<item value="start"/>
 			<item value="lock.unlock();"/>
 			<item value="condition"/>
 			<item value="collision"/>
 			<item value="reg"/>
 			<item value="txaPersonData.setText(toString());"/>
-			<item value="moveLeft"/>
-			<item value="main"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Animal"/>
+			<item value="animal"/>
 			<item value="lock.unlock();"/>
 			<item value="refresh();"/>
 			<item value=""/>
 			<item value="finished"/>
 			<item value="prepares"/>
 			<item value="perpares"/>
-			<item value="\n"/>
-			<item value="    "/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
